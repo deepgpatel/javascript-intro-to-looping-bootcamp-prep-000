@@ -10,20 +10,20 @@ function forLoop(makeArray){
 }
 function whileLoop(n){
  while (n > 0){
-   console.log(--n)
+   console.log(--n);
  }
-return 'done'
+return 'done';
 }
 
 function maybeTrue() {
-  return Math.random() >= 0.5
+  return Math.random() >= 0.5;
 }
 
 function doWhileLoop(array){
   do {
-   array = array.slice()
-  } while (array.length > 0 && maybeTrue())
-  return array
+   array = array.slice();
+  } while (array.length > 0 && maybeTrue());
+return array;
 }
 
 
